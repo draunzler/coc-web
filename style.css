@@ -98,4 +98,19 @@ section{
     font-weight: 500;
     border-radius: 30px;
     text-transform: uppercase;
+    transition: all .55s ease;
+}
+.hero-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translate(8px);
+}
+.hero-text a.ctaa{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.hero-text a.ctaa i{
+    vertical-align: middle;
+    margin-right: 5px;
 }
