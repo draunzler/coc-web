@@ -53,10 +53,10 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 10rem;
+    gap: 9rem;
 }
 section{
-    padding: 0 19%;
+    padding: 0 12%;
 }
 .hero-text h5{
     font-size: 14px;
@@ -76,4 +76,26 @@ section{
     font-weight: 600;
     color: white;
     margin-bottom: 10px;
+}
+.hero-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 10px;
+}
+.hero-img{
+    width: 500px;
+    height: auto;
+}
+.hero-text a{
+    display: inline-block;
+    color: white;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
 }
