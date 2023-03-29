@@ -37,3 +37,6 @@ body{
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
 }
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
