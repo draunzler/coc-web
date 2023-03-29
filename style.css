@@ -148,3 +148,17 @@ section{
 .scroll-down i:hover{
     transform: translateY(-5px);
 }
+@media(max-width: 1535px){
+    header{
+        padding: 15px 3%;
+        transition: .2s;
+    }
+    .icons{
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .scroll-down{
+        right: 3%;
+        transition: .2s;
+    }
+}
