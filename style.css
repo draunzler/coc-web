@@ -145,3 +145,6 @@ section{
     border-radius: 30px;
     transition: all .50s ease;
 }
+.scroll-down i:hover{
+    transform: translateY(-5px);
+}
