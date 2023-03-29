@@ -40,3 +40,10 @@ body{
 .navlist a:hover{
     border-bottom: 2px solid white;
 }
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
