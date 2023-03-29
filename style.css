@@ -53,7 +53,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 2rem;
+    gap: 10rem;
 }
 section{
     padding: 0 19%;
@@ -65,5 +65,15 @@ section{
     margin-bottom: 40px;
 }
 .hero-text h1{
-    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+}
+.hero-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
 }
